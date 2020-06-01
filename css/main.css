@@ -98,9 +98,15 @@ textarea {
    EMILY's custom styles
    ========================================================================== */
 /*------------ Base Styles - Header & Footer-------------*/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 body {
   border: 2px solid orange; /*Just adding to see outline, remove later*/
 }
+
 header,
 footer {
   display: flex;
@@ -117,11 +123,11 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
   border: 3px solid red; /*just for visual. delete later*/
 }
 
@@ -312,10 +318,19 @@ aside .form {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
@@ -547,7 +562,59 @@ aside .form {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%; 
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
 }
+
+/* ==========================================================================
+  About Page
+  ========================================================================== */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    margin-bottom: 2%;
+  }
+
+  /* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+  .faq h2 {
+    width: 100%;
+  }
 
 /* ==========================================================================
    Print styles.
