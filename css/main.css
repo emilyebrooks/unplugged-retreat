@@ -148,9 +148,11 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -193,14 +195,14 @@ header .content-wrapper {
   height: 1px;
   margin: 10px 0 20px 0;
 }
-/*figure has no css in solution
-figure {
+
+header figure {
+  width: 60%;
   display: flex;
-  flex: row nowrap;
   justify-content: center;
-  width: 100%;
-  flex: 1 0 auto;
-} */
+  align-items: center;
+  flex-flow: row wrap;
+} 
 
 header nav {
   width: 60%;
@@ -285,6 +287,12 @@ main .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #333; 
+  min-height: 500px;
 }
 
 /* I put this in global styles above. why don't they? waiting to hear back*/
@@ -335,6 +343,9 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/gathering.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* not in solution:
@@ -574,6 +585,10 @@ input[type="button"] {
 
   /* Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -598,7 +613,7 @@ input[type="button"] {
   /* Features */
 
   .features h2 {
-    margin-botom: 20px;
+    margin-bottom: 20px;
   }
 
   .features article {
@@ -631,6 +646,10 @@ input[type="button"] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  .reviews article figure {
+    width: 49%;
   }
 
   /* Footer */
@@ -723,8 +742,16 @@ input[type="button"] {
     padding: 15px 0;
   }
 
+  .hero-area {
+    min-height: 775px;
+  }
+
   .content-wrapper {
     max-width: 960px;
+  }
+
+  header figure {
+    width: 24%;
   }
 
   h2 {
@@ -744,7 +771,7 @@ input[type="button"] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em; 
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
