@@ -388,7 +388,7 @@ input[type="button"] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  liine-height: 1;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -419,8 +419,9 @@ input[type="button"] {
 
 .map figure {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 125%;
   height: 0;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -453,7 +454,7 @@ input[type="button"] {
   line-height: 1;
 }
 
-.faq content {
+.faq-content {
   margin-bottom: 50px;
 }
 
@@ -680,7 +681,7 @@ input[type="button"] {
     flex-direction: row;
   }
 
-  .footer .contact {
+  footer .contact {
     margin-bottom: 0;
   }
 
@@ -699,7 +700,7 @@ input[type="button"] {
 }
 
 /* ==========================================================================
-     About Page
+     About Page - Tablet
      ========================================================================== */
 
 .mission-content {
@@ -723,12 +724,16 @@ input[type="button"] {
   align-items: flex-start;
 }
 
-.conatct-content h4 {
+.contact-content h4 {
   font-size: 1.5em;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 /* ==========================================================================
-     FAQ Page
+     FAQ Page - Tablet
      ========================================================================== */
 
 .faq .content-wrapper {
@@ -827,7 +832,7 @@ input[type="button"] {
   }
 
 /* ==========================================================================
-  About Page
+  About Page - Desktop
   ========================================================================== */
 
 .mission h2,
@@ -838,6 +843,10 @@ input[type="button"] {
 
 .contact-content h4 {
   font-size: 1.875em;
+}
+
+.map figure {
+  padding-bottom: 38%;
 }
 
 /* ==========================================================================
