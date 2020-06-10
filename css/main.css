@@ -216,6 +216,7 @@ header nav {
 }
 
 header nav ul {
+  padding: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -595,6 +596,10 @@ input[type="button"] {
 
   header nav ul {
     justify-content: space-between;
+  }
+ 
+  header nav ul li {
+    padding-left: 2em;
   }
 
   .header-divider {
