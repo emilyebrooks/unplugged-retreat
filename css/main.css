@@ -348,16 +348,6 @@ input[type="button"] {
   background-position: center;
 }
 
-/* not in solution:
-.features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 55%;
-  border: 2px solid purple;
-} */
-
 .features h2 {
   margin-bottom: 60px;
 }
@@ -377,6 +367,11 @@ input[type="button"] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i { 
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .reviews {
