@@ -202,7 +202,7 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-} 
+}
 
 header nav {
   width: 60%;
@@ -296,11 +296,11 @@ main .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/hero.jpg');
+  background: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #333; 
+  background-color: #333;
   min-height: 500px;
 }
 
@@ -352,7 +352,7 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/gathering.jpg');
+  background: url("../img/gathering.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -378,7 +378,7 @@ input[type="button"] {
   margin: 0;
 }
 
-.features i { 
+.features i {
   font-size: 3.75em;
   margin-bottom: 40px;
 }
@@ -435,11 +435,6 @@ input[type="button"] {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.column-two p {
-  width: 90%;
-  border: 2px solid red;
 }
 
 /******** FAQ PAGE **********/
@@ -603,7 +598,7 @@ input[type="button"] {
   header nav ul {
     justify-content: space-between;
   }
- 
+
   header nav ul li {
     padding-left: 2em;
   }
@@ -716,61 +711,61 @@ input[type="button"] {
   footer .copyright {
     width: 100%;
   }
-}
 
-/* ==========================================================================
+  /* ==========================================================================
      About Page - Tablet
      ========================================================================== */
 
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px;
-}
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
 
-.mission-content p {
-  width: 45%;
-}
+  .mission-content p {
+    width: 45%;
+  }
 
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
 
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
-.contact-content h4 {
-  font-size: 1.5em;
-}
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
 
-.map figure {
-  padding-bottom: 45%;
-}
+  .map figure {
+    padding-bottom: 45%;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
      FAQ Page - Tablet
      ========================================================================== */
 
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
 
-.faq-content {
-  flex-basis: 45%;
-}
+  .faq-content {
+    flex-basis: 45%;
+  }
 
-.faq h2 {
-  width: 100%;
-}
+  .faq h2 {
+    width: 100%;
+  }
 
-.faq h4, 
-.faq p {
-  font-size: .875em;
-  line-height: 1.125;
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 1.125;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -798,17 +793,17 @@ input[type="button"] {
 
   h3,
   h4 {
-    font-size: 1.875em; 
+    font-size: 1.875em;
   }
 
   p {
     font-size: 1.125em;
-    line-height: 1.333; 
+    line-height: 1.333;
   }
 
   /* Hero */
   .hero-area h1 {
-    font-size: 3.75em; 
+    font-size: 3.75em;
     width: 80%;
   }
 
@@ -837,8 +832,8 @@ input[type="button"] {
   }
 
   /* Reviews */
-  
-  .reviews h2 { 
+
+  .reviews h2 {
     padding-bottom: 50px;
   }
 
@@ -850,36 +845,37 @@ input[type="button"] {
     font-size: 1.875em;
   }
 
-/* ==========================================================================
+  /* ==========================================================================
   About Page - Desktop
   ========================================================================== */
 
-.mission h2,
-.contact-section .content-wrapper h2 {
-  width: 95%;
-  font-size: 3em;
-}
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+    font-size: 3em;
+  }
 
-.contact-content h4 {
-  font-size: 1.875em;
-}
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
 
-.map figure {
-  padding-bottom: 38%;
-}
+  .map figure {
+    padding-bottom: 38%;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
   FAQ Page
   ========================================================================== */
-.faq h2 {
-  width: 100%;
-  font-size: 3em;
-}
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
 
-.faq h4, 
-.faq p {
-  font-size: 1.125em;
-  line-height: 1;
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 }
 
 /* ==========================================================================
