@@ -240,25 +240,13 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-}
-
-/*not in solution:
-footer .footer-content {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  border: 2px solid brown;
-}*/
+}
 
 footer .contact {
   margin-bottom: 50px;
-  /*not in solution:
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  border: 2px solid brown;*/
+  text-align: center;
 }
 
 footer .social-icons {
@@ -286,11 +274,6 @@ footer .copyright {
 }
 
 /*------------ Mobile Styles - Homepage-------------*/
-/* not in solution 
-main .content-wrapper {
-  width: 85%;
-}
-*/
 
 .hero-area {
   display: flex;
@@ -597,6 +580,7 @@ input[type="button"] {
 
   header nav ul {
     justify-content: space-between;
+    padding-right: 1em;
   }
 
   header nav ul li {
@@ -681,6 +665,7 @@ input[type="button"] {
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
+    display: inline-block;
   }
 
   .footer-content {
